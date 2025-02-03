@@ -5,19 +5,33 @@
 package com.wipro.java.oops;
 
 /**
- * Parent class=Employee
+ * POJO Plane old java object thru getter and setter method
+ * No constructor
+ * getter have return value
+ * setter have no return value
+ * prop are determine using private fields
+ * value are behaviors are determine via setters
+ * toString will convert entire animal class with properties and behaviors
  */
 public class Employee {
 
 	private String name;//This is employee name
 	private float salary;//This is employee salary
 	private String companyName;//This is employee company name
-	private int account_no;//This is employee account number
+	private int empid;//This is employee account number
+	private boolean isTaxApplicable;
+	
 	
 	/**
 	 * @return
 	 * POJO(Plain old java object)
 	 */
+	public int getEmpid() {
+		return empid;
+	}
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
 	public String getName() {
 		return name;
 	}
@@ -36,12 +50,7 @@ public class Employee {
 	public void setCompanyName(String companyName) {
 		this.companyName = companyName;
 	}
-	public int getAccount_no() {
-		return account_no;
-	}
-	public void setAccount_no(int account_no) {
-		this.account_no = account_no;
-	}
+	
 	public Employee() {
 		//TODO Auto-generated constructor stub
 	}
