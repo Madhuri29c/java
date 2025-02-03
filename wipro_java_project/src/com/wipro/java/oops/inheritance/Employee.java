@@ -13,6 +13,7 @@ package com.wipro.java.oops.inheritance;
  * value are behaviors are determine via setters
  * toString will convert entire animal class with properties and behaviors
  */
+
 public class Employee {
 
 	private String name;//This is employee name

@@ -6,6 +6,7 @@ package com.wipro.java.oops.inheritance;
  * child object is instantiated from child constructor
  * parent class consumes the properties and behaviors of child class 
  */
+
 public class ProjectLead extends Employee {
 
 	public ProjectLead() {
