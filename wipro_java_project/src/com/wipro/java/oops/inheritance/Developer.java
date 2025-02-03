@@ -1,4 +1,4 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 import java.io.ObjectInputStream.GetField;
 
