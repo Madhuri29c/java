@@ -2,18 +2,16 @@ package com.wipro.java.oops.polymorphism;
 
 class MarryGold extends Flower {
     @Override
-    public void flowerColor() {
-        System.out.println("The Marigold color is yellow or orange");
+    public void flowerInfo() {
+    	System.out.println("name:"+getName());
+    	System.out.println("name:"+getColor());
     }
-    public void flowerSize() {
-    	System.out.println("The Marigold size is medium");
-    }
-
 
     public static void main(String[] args) {
         MarryGold myFlower = new MarryGold();
-        myFlower.flowerColor(); // Output: The Marigold color is yellow or orange
-        myFlower.flowerSize();
+        myFlower.setName("Jasmine"); // Output: The Marigold color is yellow or orange
+        myFlower.setColor("White");
+        myFlower.flowerInfo();
     }
 }
 
