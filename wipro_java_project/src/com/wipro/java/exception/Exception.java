@@ -9,7 +9,7 @@ public class Exception {
 			System.out.println(a[5]);
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("Exception caught: " + e.getMessage());
+			System.out.println("Exception caught: " + e.toString());
 		}
 		finally {
 			System.out.println("Here I am executed");
