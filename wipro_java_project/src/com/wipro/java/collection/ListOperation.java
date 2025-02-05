@@ -17,8 +17,8 @@ public class ListOperation {
 		System.out.println(l1);
 		//Here size and memory is not fixed
 		List<Integer> l2 = new ArrayList<Integer>();//creating an object of List2
-		l2.add(0);//Here we are not giving position.If we don't give position also it will work fine
-		l2.add(1);
+		l2.add(0);//Here we are not giving position.
+		l2.add(1);//If we don't give position also it will work fine
 		l2.add(2);
 		l2.add(3);
 		
