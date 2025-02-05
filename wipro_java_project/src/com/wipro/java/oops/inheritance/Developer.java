@@ -9,6 +9,7 @@ import java.io.ObjectInputStream.GetField;
  * child object is instantiated from child constructor
  * parent class consumes the properties and behaviors of child class 
  */
+
 public class Developer extends Employee {
 
 	public Developer() {

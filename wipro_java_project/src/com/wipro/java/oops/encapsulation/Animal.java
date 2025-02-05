@@ -2,7 +2,7 @@ package com.wipro.java.oops.encapsulation;
 
 public class Animal {
 	public Animal(String name, String color, int age) {
-		super();
+		super();//calls the root parent class = object
 		this.name = name;
 		this.color = color;
 	}
@@ -37,7 +37,7 @@ public class Animal {
 		System.out.println(animalobj.getColor());
 		System.out.println(animalobj.getAge());
 		
-		animalobj.setAge(1);
+		animalobj.setAge(20);
 		System.out.println(animalobj.getAge());
 		System.out.println(animalobj.getName());
 		System.out.println(animalobj.getColor());
