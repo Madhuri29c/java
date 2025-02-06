@@ -24,6 +24,9 @@ interface TestInterface {
     static String show1() {
         return "Static Method Executed";
     }
+    default double calculateCircumference(int radius) {
+        return 2 * 3.14 * radius;
+    }
 }
 
 public class Shape implements TestInterface {
@@ -37,11 +40,12 @@ public class Shape implements TestInterface {
         // Abstract method
         shape.circle(4);
         shape.show(4);
+        shape.calculateCircumference(2);
         
         // Default methods
        System.out.println(shape.show(4));
         System.out.println(shape.circle1(5));
-        
+        System.out.println("Circumference:"+shape.calculateCircumference(2));
         // Static methods (called using interface name)
         System.out.println(TestInterface.show());
         System.out.println(TestInterface.show1());
