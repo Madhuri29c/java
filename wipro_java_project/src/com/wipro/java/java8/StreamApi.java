@@ -42,6 +42,7 @@ public class StreamApi {
 		int min = numbers.stream().min(Integer::compare).get();
 		//Finding The Max number from the list
 		int max = numbers.stream().max(Integer::compare).get();
+		
 		System.out.println("numbers:"+number1);
 		System.out.println("Max number:"+max);
 		System.out.println("Max number:"+min);
