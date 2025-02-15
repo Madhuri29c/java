@@ -45,7 +45,7 @@ public class TreeMapOperations {
         
         // Creating a TreeMap using Comparator Constructor
         TreeMap<Student, Integer> studentTreeMap = new TreeMap<>(new SortByRoll());
-        studentTreeMap.put(new Student(111, "John", "London"), 2);
+        studentTreeMap.put(new Student(111, "John", "America"), 2);
         studentTreeMap.put(new Student(131, "Alice", "NYC"), 3);
         studentTreeMap.put(new Student(121, "Bob", "Paris"), 1);
         System.out.println("\nTreeMap using Comparator:");
