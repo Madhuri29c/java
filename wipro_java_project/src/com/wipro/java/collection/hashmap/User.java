@@ -16,4 +16,3 @@ class User {
         return "ID: " + id + ", Name: " + name + ", Company: " + company;
     }
 }
-
