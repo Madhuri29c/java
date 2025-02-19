@@ -3,6 +3,7 @@ package com.wipro.java.linkedlist;
 //LinkedList class (handles insertion, deletion, and display)
 class LinkedList {
     private Node head;
+    
 
     // Insert a new user at the end
     public void insert(int id, String name, String company) {

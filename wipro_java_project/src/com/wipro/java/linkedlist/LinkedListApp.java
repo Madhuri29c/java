@@ -5,6 +5,7 @@ public class LinkedListApp {
         LinkedList list = new LinkedList();
         UserInputHandler inputHandler = new UserInputHandler();
 
+        
         while (true) {
             int choice = inputHandler.getChoice();
 

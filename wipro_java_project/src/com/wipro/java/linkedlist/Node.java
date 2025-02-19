@@ -6,6 +6,7 @@ class Node {
     String name;
     String company;
     Node next;
+    
 
     public Node(int id, String name, String company) {
         this.id = id;

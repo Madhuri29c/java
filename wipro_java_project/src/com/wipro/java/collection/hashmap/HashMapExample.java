@@ -7,6 +7,7 @@ public class HashMapExample {
     private static HashMap<Integer, User> userMap = new HashMap<>();
     private static Scanner scanner = new Scanner(System.in);
 
+    
     public static void main(String[] args) {
         while (true) {
             System.out.println("\n1. Add User\n2. Delete User\n3. Search User\n4. Update Company\n5. Display All Users\n6. Exit");

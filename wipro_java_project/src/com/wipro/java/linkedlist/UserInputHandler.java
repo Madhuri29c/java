@@ -33,6 +33,7 @@ class UserInputHandler {
         scanner.nextLine(); // Consume the leftover newline
         return id;
     }
+    
 
     public String getStringInput(String message) {
         System.out.print(message);
